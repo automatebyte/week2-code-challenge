@@ -5,7 +5,7 @@ const guestList = document.getElementById("guest-list");
 
 // Main form handler
 form.addEventListener("submit", function (e) {
-  e.preventDefault(); // Prevent page reload
+  e.preventDefault(); 
 
   const name = input.value.trim();
 
